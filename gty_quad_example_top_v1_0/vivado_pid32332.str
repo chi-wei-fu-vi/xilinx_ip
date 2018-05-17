@@ -1,0 +1,472 @@
+/*
+
+Xilinx Vivado v2018.1 (64-bit) [Major: 2018, Minor: 1]
+SW Build: 2188600 on Wed Apr  4 18:39:19 MDT 2018
+IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+
+Process ID: 32332
+License: Customer
+
+Current time: 	Mon May 14 15:46:06 PDT 2018
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: CentOS Linux release 7.2.1511 (Core)
+OS Version: 3.10.0-327.36.1.el7.x86_64
+OS Architecture: amd64
+Available processors (cores): 8
+
+Display: localhost:10.0
+Screen size: 3840x1089
+Screen resolution (DPI): 96
+Available screens: 2
+Available disk space: 24 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	/opt/Xilinx/Vivado/2018.1/tps/lnx64/jre
+Java executable location: 	/opt/Xilinx/Vivado/2018.1/tps/lnx64/jre/bin/java
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	chiwei
+User home directory: /home/chiwei
+User working directory: /home/chiwei/xilinx_ip/gty_quad_example_top_v1_0
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /opt/Xilinx/Vivado
+HDI_APPROOT: /opt/Xilinx/Vivado/2018.1
+RDI_DATADIR: /opt/Xilinx/Vivado/2018.1/data
+RDI_BINDIR: /opt/Xilinx/Vivado/2018.1/bin
+
+Vivado preferences file location: /home/chiwei/.Xilinx/Vivado/2018.1/vivado.xml
+Vivado preferences directory: /home/chiwei/.Xilinx/Vivado/2018.1/
+Vivado layouts directory: /home/chiwei/.Xilinx/Vivado/2018.1/layouts
+PlanAhead jar file location: 	/opt/Xilinx/Vivado/2018.1/lib/classes/planAhead.jar
+Vivado log file location: 	/home/chiwei/xilinx_ip/gty_quad_example_top_v1_0/vivado.log
+Vivado journal file location: 	/home/chiwei/xilinx_ip/gty_quad_example_top_v1_0/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-32332-lzhou-dt2-vi-local
+
+GUI allocated memory:	188 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 5,002 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 54 MB (+54285kb) [00:00:03]
+// [Engine Memory]: 4,948 MB (+5036943kb) [00:00:03]
+// Opening Vivado Project: tmp_edit_project.xpr. Version: Vivado v2018.1 
+// bv (ch):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project tmp_edit_project.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// [GUI Memory]: 63 MB (+6172kb) [00:00:06]
+// HMemoryUtils.trashcanNow. Engine heap size: 5,011 MB. GUI used memory: 37 MB. Current time: 5/14/18 3:46:08 PM PDT
+// [Engine Memory]: 5,208 MB (+12764kb) [00:00:21]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LOAD_FEATURE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 5,276 MB. GUI used memory: 35 MB. Current time: 5/14/18 3:46:33 PM PDT
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// [Engine Memory]: 6,032 MB (+591308kb) [00:00:41]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 101 MB (+37031kb) [00:02:16]
+// [GUI Memory]: 114 MB (+7857kb) [00:02:16]
+// Tcl Message: open_project tmp_edit_project.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/chiwei/xilinx_temp'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2018.1/data/ip'. INFO: [Device 21-403] Loading part xcku5p-ffvb676-2-e 
+// Tcl Message: open_project: Time (s): cpu = 00:01:54 ; elapsed = 00:02:13 . Memory (MB): peak = 7215.668 ; gain = 1121.617 ; free physical = 2255 ; free virtual = 37814 
+// Project name: tmp_edit_project; location: /home/chiwei/xilinx_ip/gty_quad_example_top_v1_0; part: xcku5p-ffvb676-2-e
+// [GUI Memory]: 121 MB (+1866kb) [00:02:18]
+dismissDialog("Open Project"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 6,093 MB. GUI used memory: 101 MB. Current time: 5/14/18 3:48:23 PM PDT
+// [GUI Memory]: 128 MB (+499kb) [00:13:31]
+// [GUI Memory]: 134 MB (+33kb) [00:18:51]
+// [GUI Memory]: 141 MB (+456kb) [00:30:51]
+// HMemoryUtils.trashcanNow. Engine heap size: 6,087 MB. GUI used memory: 101 MB. Current time: 5/14/18 4:18:23 PM PDT
+// [GUI Memory]: 149 MB (+582kb) [00:50:21]
+// HMemoryUtils.trashcanNow. Engine heap size: 6,087 MB. GUI used memory: 36 MB. Current time: 5/14/18 4:48:23 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 6,087 MB. GUI used memory: 37 MB. Current time: 5/14/18 5:18:23 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 6,087 MB. GUI used memory: 38 MB. Current time: 5/14/18 5:48:23 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 6,087 MB. GUI used memory: 37 MB. Current time: 5/14/18 6:18:23 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 6,087 MB. GUI used memory: 37 MB. Current time: 5/14/18 6:48:23 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 6,087 MB. GUI used memory: 37 MB. Current time: 5/14/18 7:18:23 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 6,087 MB. GUI used memory: 37 MB. Current time: 5/14/18 7:48:23 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 6,087 MB. GUI used memory: 37 MB. Current time: 5/14/18 8:18:23 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 6,087 MB. GUI used memory: 37 MB. Current time: 5/14/18 8:48:23 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 6,087 MB. GUI used memory: 37 MB. Current time: 5/14/18 9:18:24 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 6,087 MB. GUI used memory: 37 MB. Current time: 5/14/18 9:48:24 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 6,087 MB. GUI used memory: 37 MB. Current time: 5/14/18 10:18:24 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 6,087 MB. GUI used memory: 37 MB. Current time: 5/14/18 10:48:24 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 6,087 MB. GUI used memory: 37 MB. Current time: 5/14/18 11:18:24 PM PDT
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 6,087 MB. GUI used memory: 37 MB. Current time: 5/14/18 11:48:24 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 6,087 MB. GUI used memory: 37 MB. Current time: 5/15/18 12:18:24 AM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 6,087 MB. GUI used memory: 37 MB. Current time: 5/15/18 12:48:24 AM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 6,087 MB. GUI used memory: 37 MB. Current time: 5/15/18 1:18:24 AM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 6,087 MB. GUI used memory: 37 MB. Current time: 5/15/18 1:48:24 AM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 6,087 MB. GUI used memory: 37 MB. Current time: 5/15/18 2:18:24 AM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 6,087 MB. GUI used memory: 37 MB. Current time: 5/15/18 2:48:24 AM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 6,087 MB. GUI used memory: 37 MB. Current time: 5/15/18 3:18:24 AM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 6,087 MB. GUI used memory: 37 MB. Current time: 5/15/18 3:48:24 AM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 6,087 MB. GUI used memory: 37 MB. Current time: 5/15/18 4:18:24 AM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 6,087 MB. GUI used memory: 37 MB. Current time: 5/15/18 4:48:24 AM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 6,087 MB. GUI used memory: 37 MB. Current time: 5/15/18 5:18:24 AM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 6,087 MB. GUI used memory: 37 MB. Current time: 5/15/18 5:48:24 AM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 6,087 MB. GUI used memory: 37 MB. Current time: 5/15/18 6:18:24 AM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 6,087 MB. GUI used memory: 37 MB. Current time: 5/15/18 6:48:24 AM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 6,087 MB. GUI used memory: 37 MB. Current time: 5/15/18 7:18:24 AM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 6,087 MB. GUI used memory: 38 MB. Current time: 5/15/18 7:48:24 AM PDT
+// Elapsed time: 58079 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP-XACT]", 5, true); // B (D, ch) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP-XACT]", 5); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP-XACT, component.xml]", 6, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP-XACT, component.xml]", 6, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP-XACT, component.xml]", 6, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP-XACT, component.xml]", 6, false, false, false, false, false, true); // B (D, ch) - Double Click
+// bv (ch):  Open IP-XACT File : addNotify
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: ipx::open_ipxact_file /home/chiwei/xilinx_ip/gty_quad_example_top_v1_0/component.xml 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: PACKAGER_OBJECT_CHANGE
+dismissDialog("Open IP-XACT File"); // bv (ch)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Compatibility", 1); // an (O, ch)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "File Groups", 2); // an (O, ch)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Customization Parameters", 3); // an (O, ch)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Ports and Interfaces", 4); // an (O, ch)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Addressing and Memory", 5); // an (O, ch)
+// Elapsed time: 13 seconds
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Customization GUI", 6); // an (O, ch)
+// TclEventType: IP_LOCK_CHANGE
+// Elapsed time: 284 seconds
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Ports and Interfaces", 4); // an (O, ch)
+// Elapsed time: 15 seconds
+selectButton(RDIResource.AbstractSearchablePanel_SHOW_SEARCH, "Package IP_search"); // u (f, ch): TRUE
+setText("PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE_SEARCH_FIELD", "*clk*"); // OverlayTextField (aw, ch)
+applyEnter(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, (String) null); // M (O, ch)
+// Elapsed time: 20 seconds
+setText("PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE_SEARCH_FIELD", "clk"); // OverlayTextField (aw, ch)
+// Elapsed time: 41 seconds
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Identification", 0); // an (O, ch)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 662 seconds
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Ports and Interfaces", 4); // an (O, ch)
+// Elapsed time: 15 seconds
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "cm0_drpclk_common_int ;  ;  ;  ;  ; ref ; in ;  ; 0 ; 0 ;  ;  ; wire", 0, (String) null, 1, true); // M (O, ch) - Node
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "cm0_drpclk_common_int ;  ;  ;  ;  ; ref ; in ;  ; 0 ; 0 ;  ;  ; wire", 0, (String) null, 1, true); // M (O, ch) - Node
+expandTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "cm0_drpclk_common_int ;  ;  ;  ;  ; ref ; in ;  ; 0 ; 0 ;  ;  ; wire", 0); // M (O, ch)
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "cm0_drpclk_common_int ;  ;  ;  ;  ; ref ; in ;  ; 0 ; 0 ;  ;  ; wire", 0, (String) null, 1, true, false, false, false, false, true); // M (O, ch) - Double Click - Node
+// af (ch): Edit Port: addNotify
+dismissDialog("Edit Port"); // af (ch)
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "cm0_drpclk_common_int ;  ;  ;  ;  ; ref ; in ;  ; 0 ; 0 ;  ;  ; wire", 0, (String) null, 5, true); // M (O, ch) - Node
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "cm0_drpclk_common_int ;  ;  ;  ;  ; ref ; in ;  ; 0 ; 0 ;  ;  ; wire", 0, (String) null, 5, true); // M (O, ch) - Node
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "cm0_drpclk_common_int ;  ;  ;  ;  ; ref ; in ;  ; 0 ; 0 ;  ;  ; wire", 0, (String) null, 5, true, false, false, false, false, true); // M (O, ch) - Double Click - Node
+// af (ch): Edit Port: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (af)
+dismissDialog("Edit Port"); // af (ch)
+// Elapsed time: 47 seconds
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "cm0_drpclk_common_int ;  ;  ;  ;  ; ref ; in ;  ; 0 ; 0 ;  ;  ; wire", 0, "cm0_drpclk_common_int", 0, true, false, false, false, true, false); // M (O, ch) - Popup Trigger - Node
+selectMenu(PAResourceOtoP.PortAndInterfaceFacetTable_AUTO_INFER_SINGLE_BIT_INTERFACE, "Auto Infer Single Bit Interface"); // Z (ai, ch)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: ipx::infer_bus_interface cm0_drpclk_common_int xilinx.com:signal:clock_rtl:1.0 [ipx::current_core] 
+// Tcl Message: INFO: [IP_Flow 19-5107] Inferred bus interface 'cm0_drpclk_common_int' of definition 'xilinx.com:signal:clock:1.0' (from TCL Argument). 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "ch0_drpclk_int ;  ;  ;  ;  ; ref ; in ;  ; 0 ; 0 ;  ;  ; wire", 6, "ch0_drpclk_int", 0, false, false, false, false, true, false); // M (O, ch) - Popup Trigger
+selectMenu(PAResourceOtoP.PortAndInterfaceFacetTable_AUTO_INFER_SINGLE_BIT_INTERFACE, "Auto Infer Single Bit Interface"); // Z (ai, ch)
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "Clock and Reset Signals ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; ", 5, "Clock and Reset Signals", 0, true); // M (O, ch) - Node
+// Elapsed time: 46 seconds
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "Clock and Reset Signals ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; ", 5, "Clock and Reset Signals", 0, true); // M (O, ch) - Node
+expandTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "Clock and Reset Signals ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; ", 5); // M (O, ch)
+// Elapsed time: 45 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP-XACT, component.xml]", 6, false, false, false, false, true, false); // B (D, ch) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, ch)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z (ai, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent"); // Z (ch)
+selectMenuItem(PAResourceCommand.PACommandNames_SAVE_PROJECT_AS, "Save As..."); // ac (ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+// Run Command: PAResourceCommand.PACommandNames_SAVE_PROJECT_AS
+// aE (ch): Save Project As: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (aE)
+// 'o' command handler elapsed time: 3 seconds
+dismissDialog("Save Project As"); // aE (ch)
+selectButton(PAResourceItoN.MessageBanner_CHANGES_DETECTED_IN_VIVADO_PROJECT_THAT, "Merge changes from Ports and Interfaces Wizard"); // h (M, ch)
+// TclEventType: PACKAGER_COMPONENT_RESET
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'ipx::merge_project_changes' failed due to earlier errors.  
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.1 (64-bit)
+# SW Build: 2188600 on Wed Apr  4 18:39:19 MDT 2018
+# IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Current time: Tue May 15 08:17:55 PDT 2018
+# Process ID: 32332
+# OS: CentOS Linux release 7.2.1511 (Core)
+# User: chiwei
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+ui.frmwork.CommandFailedException:  ERROR: [Common 17-39] 'ipx::merge_project_changes' failed due to earlier errors.
+ (See /home/chiwei/xilinx_ip/gty_quad_example_top_v1_0/vivado_pid32332.debug)
+*/
+// TclEventType: IP_LOCK_CHANGE
+// Tcl Message: ipx::merge_project_changes ports [ipx::current_core] 
+// Tcl Message: INFO: [IP_Flow 19-1842] HDL Parser: Found include file "src/gty_quad_example_wrapper_functions.v" from the top-level HDL file. 
+// Tcl Message: ERROR: [Common 17-39] 'ipx::merge_project_changes' failed due to earlier errors. 
+// HOptionPane Error: 'ERROR: [Common 17-39] 'ipx::merge_project_changes' failed due to earlier errors. (Vivado v2018.1 (64-bit))'
+selectButton("RDIResource.MainWindowUtils_ERROR_OK", "OK"); // JButton (A, G)
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// HMemoryUtils.trashcanNow. Engine heap size: 6,100 MB. GUI used memory: 58 MB. Current time: 5/15/18 8:18:24 AM PDT
+// Elapsed time: 29 seconds
+selectButton(PAResourceOtoP.PackagerStepContentPanel_MESSAGES, "1"); // h (p, ch)
+// Elapsed time: 24 seconds
+expandTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "Clock and Reset Signals ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; ", 5); // M (O, ch)
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "cm0_drpclk_common_int ; slave ;  ; false ;  ;  ;  ;  ;  ;  ;  ;  ; ", 6, "cm0_drpclk_common_int", 0, false); // M (O, ch)
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "cm0_drpclk_common_int ; slave ;  ; false ;  ;  ;  ;  ;  ;  ;  ;  ; ", 6, "cm0_drpclk_common_int", 0, false, false, false, false, true, false); // M (O, ch) - Popup Trigger
+// Elapsed time: 10 seconds
+selectMenuItem(PAResourceCommand.PACommandNames_PACKAGER_AUTO_INFER_INTERFACE, "Auto Infer Interface..."); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_PACKAGER_AUTO_INFER_INTERFACE
+// e (ch): Auto Infer Interface Chooser: addNotify
+expandTreeTable(PAResourceItoN.InterfaceDefinitionTreeTable_INTERFACES_TREE_TABLE, "User ; ", 7); // ai (O, e)
+expandTreeTable(PAResourceItoN.InterfaceDefinitionTreeTable_INTERFACES_TREE_TABLE, "Advanced ; ", 6); // ai (O, e)
+expandTreeTable(PAResourceItoN.InterfaceDefinitionTreeTable_INTERFACES_TREE_TABLE, "Signal ; ", 4); // ai (O, e)
+// Elapsed time: 10 seconds
+selectTreeTable(PAResourceItoN.InterfaceDefinitionTreeTable_INTERFACES_TREE_TABLE, "Signal ; ", 4, "Signal", 0, true); // ai (O, e) - Node
+collapseTreeTable(PAResourceItoN.InterfaceDefinitionTreeTable_INTERFACES_TREE_TABLE, "Signal ; ", 4); // ai (O, e)
+selectTreeTable(PAResourceItoN.InterfaceDefinitionTreeTable_INTERFACES_TREE_TABLE, "Signal ; ", 4, "Signal", 0, true, false, false, false, false, true); // ai (O, e) - Double Click - Node
+expandTreeTable(PAResourceItoN.InterfaceDefinitionTreeTable_INTERFACES_TREE_TABLE, "Signal ; ", 4); // ai (O, e)
+selectTreeTable(PAResourceItoN.InterfaceDefinitionTreeTable_INTERFACES_TREE_TABLE, "clock_rtl ; Xilinx Clock Signal Interface", 5, "clock_rtl", 0, false); // ai (O, e)
+expandTreeTable(PAResourceItoN.InterfaceDefinitionTreeTable_INTERFACES_TREE_TABLE, "clock_rtl ; Xilinx Clock Signal Interface", 5); // ai (O, e)
+selectTreeTable(PAResourceItoN.InterfaceDefinitionTreeTable_INTERFACES_TREE_TABLE, "clock_rtl ; Xilinx Clock Signal Interface", 5, "clock_rtl", 0, false, false, false, false, false, true); // ai (O, e) - Double Click
+selectTreeTable(PAResourceItoN.InterfaceDefinitionTreeTable_INTERFACES_TREE_TABLE, "clock_rtl ; Xilinx Clock Signal Interface", 5, "Xilinx Clock Signal Interface", 1, false); // ai (O, e)
+selectTreeTable(PAResourceItoN.InterfaceDefinitionTreeTable_INTERFACES_TREE_TABLE, "clock_rtl ; Xilinx Clock Signal Interface", 5, "Xilinx Clock Signal Interface", 1, false, false, false, false, false, true); // ai (O, e) - Double Click
+selectTreeTable(PAResourceItoN.InterfaceDefinitionTreeTable_INTERFACES_TREE_TABLE, "clock_rtl ; Xilinx Clock Signal Interface", 5, "Xilinx Clock Signal Interface", 1, false); // ai (O, e)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (e)
+// TclEventType: PACKAGER_COMPONENT_RESET
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'ipx::infer_bus_interfaces' failed due to earlier errors.  
+// 'c' command handler elapsed time: 40 seconds
+// Tcl Message: ipx::infer_bus_interfaces xilinx.com:signal:clock_rtl:1.0 [ipx::current_core] 
+// Tcl Message: ERROR: [Common 17-39] 'ipx::infer_bus_interfaces' failed due to earlier errors. 
+dismissDialog("Auto Infer Interface Chooser"); // e (ch)
+expandTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "Clock and Reset Signals ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; ", 5); // M (O, ch)
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "cm0_drpclk_common_int ; slave ;  ; false ;  ;  ;  ;  ;  ;  ;  ;  ; ", 6, "cm0_drpclk_common_int", 0, false); // M (O, ch)
+// Elapsed time: 14 seconds
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "cm0_drpclk_common_int ; slave ;  ; false ;  ;  ;  ;  ;  ;  ;  ;  ; ", 6, "cm0_drpclk_common_int", 0, false, false, false, false, true, false); // M (O, ch) - Popup Trigger
+selectMenuItem(PAResourceQtoS.RefreshPackagerTableAction_REFRESH_ALL_ROWS_IN_TABLE, "Refresh Table"); // ac (ai, ch)
+// Elapsed time: 23 seconds
+selectButton(PAResourceOtoP.PackagerStepContentPanel_MESSAGES, "1"); // h (p, ch)
+// Elapsed time: 32 seconds
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "cm0_drpclk_common_int ; slave ;  ; false ;  ;  ;  ;  ;  ;  ;  ;  ; ", 6, "cm0_drpclk_common_int", 0, false); // M (O, ch)
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "cm0_drpclk_common_int ; slave ;  ; false ;  ;  ;  ;  ;  ;  ;  ;  ; ", 6, "cm0_drpclk_common_int", 0, false); // M (O, ch)
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "cm0_drpclk_common_int ; slave ;  ; false ;  ;  ;  ;  ;  ;  ;  ;  ; ", 6, "cm0_drpclk_common_int", 0, false, false, false, false, true, false); // M (O, ch) - Popup Trigger
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "drpclk ;  ;  ;  ;  ; ref ; in ;  ; 0 ; 0 ;  ;  ; wire", 7, "drpclk", 0, false); // M (O, ch)
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "drpclk ;  ;  ;  ;  ; ref ; in ;  ; 0 ; 0 ;  ;  ; wire", 7, "drpclk", 0, false); // M (O, ch)
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "cm0_drpclk_common_int ; slave ;  ; false ;  ;  ;  ;  ;  ;  ;  ;  ; ", 6, "cm0_drpclk_common_int", 0, false); // M (O, ch)
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "cm0_drpclk_common_int ; slave ;  ; false ;  ;  ;  ;  ;  ;  ;  ;  ; ", 6, "cm0_drpclk_common_int", 0, false, false, false, false, true, false); // M (O, ch) - Popup Trigger
+selectMenuItem(PAResourceOtoP.PortAndInterfaceFacetTable_REMOVE_INTERFACE, "Remove Interface"); // ac (ai, ch)
+// TclEventType: PACKAGER_OBJECT_DELETE
+// Tcl Message: ipx::remove_bus_interface cm0_drpclk_common_int [ipx::current_core] 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "drpclk ;  ;  ;  ;  ; ref ; in ;  ; 0 ; 0 ;  ;  ; wire", 5, "drpclk", 0, false); // M (O, ch)
+// Elapsed time: 13 seconds
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "drpclk ;  ;  ;  ;  ; ref ; in ;  ; 0 ; 0 ;  ;  ; wire", 5, "drpclk", 0, false, false, false, false, true, false); // M (O, ch) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_PACKAGER_ADD_BUS_INTERFACE, "Add Bus Interface..."); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_PACKAGER_ADD_BUS_INTERFACE
+// H (ch): Add Interface: addNotify
+// HOptionPane Error: 'You're entered an invalid name for new IP Interface. (Invalid IP Interface Name)'
+selectButton("PAResourceEtoH.EditInterfaceDialog_YOURE_ENTERED_INVALID_NAME_FOR_NEW_OK", "OK"); // JButton (A, H)
+selectButton(PAResourceItoN.InterfaceDefinitionChooser_INTERFACE_DEFINITION_CHOOSER, (String) null); // q (t, H)
+// u (ch): Interface Definition Chooser: addNotify
+selectTreeTable(PAResourceItoN.InterfaceDefinitionTreeTable_INTERFACES_TREE_TABLE, "Signal ; ", 4, "Signal", 0, true); // ai (O, u) - Node
+expandTreeTable(PAResourceItoN.InterfaceDefinitionTreeTable_INTERFACES_TREE_TABLE, "Signal ; ", 4); // ai (O, u)
+selectTreeTable(PAResourceItoN.InterfaceDefinitionTreeTable_INTERFACES_TREE_TABLE, "clock_rtl ; Xilinx Clock Signal Interface", 5, "clock_rtl", 0, false); // ai (O, u)
+expandTreeTable(PAResourceItoN.InterfaceDefinitionTreeTable_INTERFACES_TREE_TABLE, "clock_rtl ; Xilinx Clock Signal Interface", 5); // ai (O, u)
+selectTreeTable(PAResourceItoN.InterfaceDefinitionTreeTable_INTERFACES_TREE_TABLE, "clock_rtl ; Xilinx Clock Signal Interface", 5, "clock_rtl", 0, false, false, false, false, false, true); // ai (O, u) - Double Click
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (u)
+dismissDialog("Interface Definition Chooser"); // u (ch)
+// Elapsed time: 11 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (H)
+// 'a' command handler elapsed time: 31 seconds
+dismissDialog("Add Interface"); // H (ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 6,121 MB. GUI used memory: 63 MB. Current time: 5/15/18 8:23:05 AM PDT
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 55 seconds
+selectButton(PAResourceItoN.MessageBanner_CHANGES_DETECTED_IN_VIVADO_PROJECT_THAT, "Merge changes from Ports and Interfaces Wizard"); // h (M, ch)
+// TclEventType: PACKAGER_COMPONENT_RESET
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// Tcl Message: ipx::merge_project_changes ports [ipx::current_core] 
+// Tcl Message: INFO: [IP_Flow 19-1842] HDL Parser: Found include file "src/gty_quad_example_wrapper_functions.v" from the top-level HDL file. 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "drpclk ;  ;  ;  ;  ; ref ; in ;  ; 0 ; 0 ;  ;  ; wire", 5, "drpclk", 0, false); // M (O, ch)
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "drpclk ;  ;  ;  ;  ; ref ; in ;  ; 0 ; 0 ;  ;  ; wire", 5, "drpclk", 0, false, false, false, false, true, false); // M (O, ch) - Popup Trigger
+selectMenu(PAResourceOtoP.PortAndInterfaceFacetTable_AUTO_INFER_SINGLE_BIT_INTERFACE, "Auto Infer Single Bit Interface"); // Z (ai, ch)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: ipx::infer_bus_interface drpclk xilinx.com:signal:clock_rtl:1.0 [ipx::current_core] 
+// Tcl Message: INFO: [IP_Flow 19-5107] Inferred bus interface 'drpclk' of definition 'xilinx.com:signal:clock:1.0' (from TCL Argument). 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+expandTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "Clock and Reset Signals ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; ", 5); // M (O, ch)
+// Elapsed time: 22 seconds
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "mgtrefclk0_x0y2_p ;  ;  ;  ;  ; ref ; in ;  ;  ;  ;  ;  ; wire", 8, "mgtrefclk0_x0y2_p", 0, false); // M (O, ch)
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "mgtrefclk0_x0y2_n ;  ;  ;  ;  ; ref ; in ;  ;  ;  ;  ;  ; wire", 9, "mgtrefclk0_x0y2_n", 0, false, false, true, false, false, false); // M (O, ch) - Control Key
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "mgtrefclk0_x0y2_p ;  ;  ;  ;  ; ref ; in ;  ;  ;  ;  ;  ; wire", 8, "mgtrefclk0_x0y2_p", 0, false, false, false, false, true, false); // M (O, ch) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_PACKAGER_PORT_IMPORT, "Import IP Ports..."); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_PACKAGER_PORT_IMPORT
+// al (ch): Import Ports from HDL: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (al)
+// 's' command handler elapsed time: 4 seconds
+dismissDialog("Import Ports from HDL"); // al (ch)
+// Elapsed time: 138 seconds
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "mgtrefclk0_x0y2_p ;  ;  ;  ;  ; ref ; in ;  ;  ;  ;  ;  ; wire", 8, "mgtrefclk0_x0y2_p", 0, false, false, false, false, true, false); // M (O, ch) - Popup Trigger
+selectMenuItem(PAResourceOtoP.PortAndInterfaceFacetTable_EDIT_PORT, "Edit Port..."); // ac (ai, ch)
+// af (ch): Edit Port: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (af)
+dismissDialog("Edit Port"); // af (ch)
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "mgtrefclk0_x0y2_p ;  ;  ;  ;  ; ref ; in ;  ;  ;  ;  ;  ; wire", 8, (String) null, 1, false, false, false, false, true, false); // M (O, ch) - Popup Trigger
+selectMenuItem(PAResourceOtoP.PortAndInterfaceFacetTable_CREATE_INTERFACE_DEFINITION, "Create Interface Definition..."); // ac (ai, ch)
+// ao (ch): Create Interface Definition: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ao)
+dismissDialog("Create Interface Definition"); // ao (ch)
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "mgtrefclk0_x0y2_p ;  ;  ;  ;  ; ref ; in ;  ;  ;  ;  ;  ; wire", 8, "mgtrefclk0_x0y2_p", 0, false, false, false, false, true, false); // M (O, ch) - Popup Trigger
+selectMenu(PAResourceOtoP.PortAndInterfaceFacetTable_AUTO_INFER_SINGLE_BIT_INTERFACE, "Auto Infer Single Bit Interface"); // Z (ai, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_PACKAGER_ADD_BUS_INTERFACE, "Add Bus Interface..."); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_PACKAGER_ADD_BUS_INTERFACE
+// H (ch): Add Interface: addNotify
+selectButton(PAResourceItoN.InterfaceDefinitionChooser_INTERFACE_DEFINITION_CHOOSER, (String) null); // q (t, H)
+// u (ch): Interface Definition Chooser: addNotify
+selectTreeTable(PAResourceItoN.InterfaceDefinitionTreeTable_INTERFACES_TREE_TABLE, "Signal ; ", 4, "Signal", 0, true); // ai (O, u) - Node
+expandTreeTable(PAResourceItoN.InterfaceDefinitionTreeTable_INTERFACES_TREE_TABLE, "Signal ; ", 4); // ai (O, u)
+selectTreeTable(PAResourceItoN.InterfaceDefinitionTreeTable_INTERFACES_TREE_TABLE, "clock_rtl ; Xilinx Clock Signal Interface", 5, "clock_rtl", 0, false); // ai (O, u)
+selectTreeTable(PAResourceItoN.InterfaceDefinitionTreeTable_INTERFACES_TREE_TABLE, "clockenable_rtl ; ", 6, "clockenable_rtl", 0, false); // ai (O, u)
+selectTreeTable(PAResourceItoN.InterfaceDefinitionTreeTable_INTERFACES_TREE_TABLE, "data_rtl ; ", 7, "data_rtl", 0, false); // ai (O, u)
+selectTreeTable(PAResourceItoN.InterfaceDefinitionTreeTable_INTERFACES_TREE_TABLE, "interrupt_rtl ; Xilinx Interrupt Signal Interface", 8, "interrupt_rtl", 0, false); // ai (O, u)
+selectTreeTable(PAResourceItoN.InterfaceDefinitionTreeTable_INTERFACES_TREE_TABLE, "reset_rtl ; Xilinx Reset Signal Interface", 9, "reset_rtl", 0, false); // ai (O, u)
+selectTreeTable(PAResourceItoN.InterfaceDefinitionTreeTable_INTERFACES_TREE_TABLE, "video_frame_ptr_rtl ; Video Frame Pointer Interface", 10, "video_frame_ptr_rtl", 0, false); // ai (O, u)
+selectTreeTable(PAResourceItoN.InterfaceDefinitionTreeTable_INTERFACES_TREE_TABLE, "video_frame_sync_rtl ; Video Frame Sync Interface", 11, "video_frame_sync_rtl", 0, false); // ai (O, u)
+expandTreeTable(PAResourceItoN.InterfaceDefinitionTreeTable_INTERFACES_TREE_TABLE, "IO Interfaces ; ", 12); // ai (O, u)
+selectTreeTable(PAResourceItoN.InterfaceDefinitionTreeTable_INTERFACES_TREE_TABLE, "dp_main_lnk_rtl ; To move video stream through these high speed I/O from source to sink core", 13, "dp_main_lnk_rtl", 0, false); // ai (O, u)
+selectTreeTable(PAResourceItoN.InterfaceDefinitionTreeTable_INTERFACES_TREE_TABLE, "dvi_rtl ; DVI interface used for AXI TFT controller", 14, "dvi_rtl", 0, false); // ai (O, u)
+selectTreeTable(PAResourceItoN.InterfaceDefinitionTreeTable_INTERFACES_TREE_TABLE, "gpio_rtl ; General purpose input output interface", 15, "gpio_rtl", 0, false); // ai (O, u)
+selectTreeTable(PAResourceItoN.InterfaceDefinitionTreeTable_INTERFACES_TREE_TABLE, "hsic_rtl ; HSIC interface for USB HSIC capable PHY's", 16, "hsic_rtl", 0, false); // ai (O, u)
+selectTreeTable(PAResourceItoN.InterfaceDefinitionTreeTable_INTERFACES_TREE_TABLE, "pcie_7x_mgt_rtl ; PCIe Serial Link Interface", 17, "pcie_7x_mgt_rtl", 0, false); // ai (O, u)
+// Elapsed time: 12 seconds
+selectTreeTable(PAResourceItoN.InterfaceDefinitionTreeTable_INTERFACES_TREE_TABLE, "spi_rtl ; Serial Peripheral Interface", 18, "spi_rtl", 0, false); // ai (O, u)
+selectTreeTable(PAResourceItoN.InterfaceDefinitionTreeTable_INTERFACES_TREE_TABLE, "vga_rtl ; VGA interface definition, used in TFT controller", 19, "vga_rtl", 0, false); // ai (O, u)
+expandTreeTable(PAResourceItoN.InterfaceDefinitionTreeTable_INTERFACES_TREE_TABLE, "Advanced ; ", 20); // ai (O, u)
+selectTreeTable(PAResourceItoN.InterfaceDefinitionTreeTable_INTERFACES_TREE_TABLE, "acc_fifo_read_rtl ; ", 21, "acc_fifo_read_rtl", 0, false); // ai (O, u)
+selectTreeTable(PAResourceItoN.InterfaceDefinitionTreeTable_INTERFACES_TREE_TABLE, "acc_fifo_write_rtl ; ", 22, "acc_fifo_write_rtl", 0, false); // ai (O, u)
+selectTreeTable(PAResourceItoN.InterfaceDefinitionTreeTable_INTERFACES_TREE_TABLE, "acc_handshake_rtl ; Accelerator Handshake Interface", 23, "acc_handshake_rtl", 0, false); // ai (O, u)
+selectTreeTable(PAResourceItoN.InterfaceDefinitionTreeTable_INTERFACES_TREE_TABLE, "acemm_rtl ; AMBA ACE Interface", 24, "acemm_rtl", 0, false); // ai (O, u)
+selectTreeTable(PAResourceItoN.InterfaceDefinitionTreeTable_INTERFACES_TREE_TABLE, "ahblite_rtl ; AMBA AHB Lite interface", 25, "ahblite_rtl", 0, false); // ai (O, u)
+selectTreeTable(PAResourceItoN.InterfaceDefinitionTreeTable_INTERFACES_TREE_TABLE, "ahblite_rtl ; AMBA AHB Lite interface", 26, "ahblite_rtl", 0, false); // ai (O, u)
+selectTreeTable(PAResourceItoN.InterfaceDefinitionTreeTable_INTERFACES_TREE_TABLE, "apb_rtl ; ", 27, "apb_rtl", 0, false); // ai (O, u)
+selectTreeTable(PAResourceItoN.InterfaceDefinitionTreeTable_INTERFACES_TREE_TABLE, "avalon_rtl ; Altera Avalon Bus Interface", 28, "avalon_rtl", 0, false); // ai (O, u)
+// Elapsed time: 16 seconds
+selectTreeTable(PAResourceItoN.InterfaceDefinitionTreeTable_INTERFACES_TREE_TABLE, "bram_rtl ; Xilinx Block RAM interface", 29, "bram_rtl", 0, false); // ai (O, u)
+selectTreeTable(PAResourceItoN.InterfaceDefinitionTreeTable_INTERFACES_TREE_TABLE, "bscan_rtl ; Boundary Scan (BSCAN) Bus Definition", 30, "bscan_rtl", 0, false); // ai (O, u)
+// Elapsed time: 10 seconds
+selectTreeTable(PAResourceItoN.InterfaceDefinitionTreeTable_INTERFACES_TREE_TABLE, "can_rtl ; ", 31, "can_rtl", 0, false); // ai (O, u)
+selectTreeTable(PAResourceItoN.InterfaceDefinitionTreeTable_INTERFACES_TREE_TABLE, "cap_rtl ; Configuration Access Port arbitration interface", 32, "cap_rtl", 0, false); // ai (O, u)
+selectTreeTable(PAResourceItoN.InterfaceDefinitionTreeTable_INTERFACES_TREE_TABLE, "chi_rtl ; AMBA 5 Coherent Hub Interface", 33, "chi_rtl", 0, false); // ai (O, u)
+// Elapsed time: 16 seconds
+selectTreeTable(PAResourceItoN.InterfaceDefinitionTreeTable_INTERFACES_TREE_TABLE, "cpri_hdlc_rtl ; High Level Data Link Control Interface for CPRI", 34, "cpri_hdlc_rtl", 0, false); // ai (O, u)
+selectTreeTable(PAResourceItoN.InterfaceDefinitionTreeTable_INTERFACES_TREE_TABLE, "cpri_iq_rtl ; CPRI I/Q Interface for sending and receiving sample data and synchronization information", 35, "cpri_iq_rtl", 0, false); // ai (O, u)
+selectTreeTable(PAResourceItoN.InterfaceDefinitionTreeTable_INTERFACES_TREE_TABLE, "cpri_vendor_rtl ; CPRI Vendor Specific Interface", 36, "cpri_vendor_rtl", 0, false); // ai (O, u)
+selectTreeTable(PAResourceItoN.InterfaceDefinitionTreeTable_INTERFACES_TREE_TABLE, "cxs_rtl ; CCIX Streaming Interface", 37, "cxs_rtl", 0, false); // ai (O, u)
+selectTreeTable(PAResourceItoN.InterfaceDefinitionTreeTable_INTERFACES_TREE_TABLE, "ddr4_rtl ; bus definition for DDR4", 38, "ddr4_rtl", 0, false); // ai (O, u)
+selectTreeTable(PAResourceItoN.InterfaceDefinitionTreeTable_INTERFACES_TREE_TABLE, "ddrx_rtl ; Common bus definition for DDR2/DDR3/LPDDR etc", 39, "ddrx_rtl", 0, false); // ai (O, u)
+selectTreeTable(PAResourceItoN.InterfaceDefinitionTreeTable_INTERFACES_TREE_TABLE, "diff_analog_io_rtl ; Differential Analog IO interface for VP/VN and VAUXP[15:0]/VAUXN[15:0]", 40, "diff_analog_io_rtl", 0, false); // ai (O, u)
+selectTreeTable(PAResourceItoN.InterfaceDefinitionTreeTable_INTERFACES_TREE_TABLE, "diff_clock_rtl ; Differential Clock Interface", 41, "diff_clock_rtl", 0, false); // ai (O, u)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (u)
+dismissDialog("Interface Definition Chooser"); // u (ch)
+// Elapsed time: 43 seconds
+setText(PAResourceItoN.InterfaceConfigurationPanel_NAME, "mgtrefclk0_x0y2"); // z (y, H)
+// Elapsed time: 14 seconds
+setText(PAResourceItoN.InterfaceConfigurationPanel_DISPLAY_NAME, "mgtrefclk0_x0y2"); // X (Q, H)
+// Tcl Message: ipx::add_bus_interface mgtrefclk0_x0y2 [ipx::current_core] 
+// Tcl Message: set_property abstraction_type_vlnv xilinx.com:interface:diff_clock_rtl:1.0 [ipx::get_bus_interfaces mgtrefclk0_x0y2 -of_objects [ipx::current_core]] 
+// Tcl Message: set_property bus_type_vlnv xilinx.com:interface:diff_clock:1.0 [ipx::get_bus_interfaces mgtrefclk0_x0y2 -of_objects [ipx::current_core]] 
+// Tcl Message: set_property interface_mode master [ipx::get_bus_interfaces mgtrefclk0_x0y2 -of_objects [ipx::current_core]] 
+// Tcl Message: set_property display_name mgtrefclk0_x0y2 [ipx::get_bus_interfaces mgtrefclk0_x0y2 -of_objects [ipx::current_core]] 
+selectTab(PAResourceEtoH.EditInterfaceDialog_TABBED_PANE, PAResourceEtoH.EditInterfaceDialog_PORT_MAPPING, "Port Mapping", 1); // I (H)
+selectList(PAResourceItoN.InterfacePortMappingPanel_INTERFACES_LOGICAL_PORTS, "ui.data.coregen.b@73d59007", 0); // N (O, H)
+selectList(PAResourceItoN.InterfacePortMappingPanel_IPS_PHYSICAL_PORTS, "ui.data.coregen.bm@6e7447ad", 32); // O (O, H)
+selectTab(PAResourceEtoH.EditInterfaceDialog_TABBED_PANE, PAResourceEtoH.EditInterfaceDialog_GENERAL, "General", 0); // I (H)
+selectComboBox(PAResourceItoN.InterfaceConfigurationPanel_MODE, "slave", 1); // e (Q, H)
+// Tcl Message: set_property interface_mode slave [ipx::get_bus_interfaces mgtrefclk0_x0y2 -of_objects [ipx::current_core]] 
+selectTab(PAResourceEtoH.EditInterfaceDialog_TABBED_PANE, PAResourceEtoH.EditInterfaceDialog_PARAMETERS, "Parameters", 2); // I (H)
+selectTab(PAResourceEtoH.EditInterfaceDialog_TABBED_PANE, PAResourceEtoH.EditInterfaceDialog_PORT_MAPPING, "Port Mapping", 1); // I (H)
+selectList(PAResourceItoN.InterfacePortMappingPanel_INTERFACES_LOGICAL_PORTS, "ui.data.coregen.b@1c80791b", 0); // N (O, H)
+selectList(PAResourceItoN.InterfacePortMappingPanel_IPS_PHYSICAL_PORTS, "ui.data.coregen.bm@45458b80", 32); // O (O, H)
+selectButton(PAResourceItoN.InterfacePortMappingPanel_MAP_PORTS, "Map Ports"); // a (I, H)
+selectList(PAResourceItoN.InterfacePortMappingPanel_INTERFACES_LOGICAL_PORTS, "ui.data.coregen.b@4eb0f9b1", 1); // N (O, H)
+selectList(PAResourceItoN.InterfacePortMappingPanel_IPS_PHYSICAL_PORTS, "ui.data.coregen.bm@40bf5bb0", 33); // O (O, H)
+selectButton(PAResourceItoN.InterfacePortMappingPanel_MAP_PORTS, "Map Ports"); // a (I, H)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (H)
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// 'a' command handler elapsed time: 290 seconds
+// Tcl Message: ipx::add_port_map CLK_P [ipx::get_bus_interfaces mgtrefclk0_x0y2 -of_objects [ipx::current_core]] 
+// Tcl Message: set_property physical_name mgtrefclk0_x0y2_p [ipx::get_port_maps CLK_P -of_objects [ipx::get_bus_interfaces mgtrefclk0_x0y2 -of_objects [ipx::current_core]]] 
+// Tcl Message: ipx::add_port_map CLK_N [ipx::get_bus_interfaces mgtrefclk0_x0y2 -of_objects [ipx::current_core]] 
+// Tcl Message: set_property physical_name mgtrefclk0_x0y2_n [ipx::get_port_maps CLK_N -of_objects [ipx::get_bus_interfaces mgtrefclk0_x0y2 -of_objects [ipx::current_core]]] 
+dismissDialog("Add Interface"); // H (ch)
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Elapsed time: 10 seconds
+expandTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "Clock and Reset Signals ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; ", 6); // M (O, ch)
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "cm0_gtrefclk00_int ;  ;  ;  ;  ; ref ; out ;  ; 0 ; 0 ;  ;  ; wire", 8, "cm0_gtrefclk00_int", 0, false); // M (O, ch)
+// Elapsed time: 14 seconds
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "hb_gtwiz_reset_clk_freerun_in ;  ;  ;  ;  ; ref ; in ;  ;  ;  ;  ;  ; wire", 25, "hb_gtwiz_reset_clk_freerun_in", 0, false); // M (O, ch)
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "hb_gtwiz_reset_clk_freerun_in ;  ;  ;  ;  ; ref ; in ;  ;  ;  ;  ;  ; wire", 25, "hb_gtwiz_reset_clk_freerun_in", 0, false, false, false, false, true, false); // M (O, ch) - Popup Trigger
+selectMenu(PAResourceOtoP.PortAndInterfaceFacetTable_AUTO_INFER_SINGLE_BIT_INTERFACE, "Auto Infer Single Bit Interface"); // Z (ai, ch)

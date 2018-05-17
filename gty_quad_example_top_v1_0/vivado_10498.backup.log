@@ -1,0 +1,42 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:39:19 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Thu May 17 09:36:41 2018
+# Process ID: 10498
+# Current directory: /home/chiwei/xilinx_ip/gty_quad_example_top_v1_0
+# Command line: vivado tmp_edit_project.xpr
+# Log file: /home/chiwei/xilinx_ip/gty_quad_example_top_v1_0/vivado.log
+# Journal file: /home/chiwei/xilinx_ip/gty_quad_example_top_v1_0/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project tmp_edit_project.xpr
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory '/home/chiwei/xilinx_temp/myip_v1.0/myip_1.0'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository '/home/chiwei/xilinx_temp/myip_v1.0/myip_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/chiwei/xilinx_temp'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2018.1/data/ip'.
+INFO: [Device 21-403] Loading part xcku5p-ffvb676-2-e
+open_project: Time (s): cpu = 00:01:54 ; elapsed = 00:02:14 . Memory (MB): peak = 7217.090 ; gain = 1102.754 ; free physical = 2136 ; free virtual = 30886
+update_compile_order -fileset sources_1
+ipx::open_ipxact_file /home/chiwei/xilinx_ip/gty_quad_example_top_v1_0/component.xml
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+WARNING: [IP_Flow 19-4963] gty_quad has board value specified. The packaged IP will be restricted to usage with board 'xilinx.com:kcu116:part0:1.3'
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: '/home/chiwei/xilinx_ip/gty_quad_example_top_v1_0/sim/gty_quad_vio_0/gty_quad_vio_0.xci'.
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: '/home/chiwei/xilinx_ip/gty_quad_example_top_v1_0/sim/gty_quad/gty_quad.xci'.
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: '/home/chiwei/xilinx_ip/gty_quad_example_top_v1_0/sim/gty_quad_example_bit_sync.v'.
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: '/home/chiwei/xilinx_ip/gty_quad_example_top_v1_0/sim/gty_quad_example_checking_raw.v'.
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: '/home/chiwei/xilinx_ip/gty_quad_example_top_v1_0/sim/gty_quad_example_gtwiz_userclk_rx.v'.
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: '/home/chiwei/xilinx_ip/gty_quad_example_top_v1_0/sim/gty_quad_example_gtwiz_userclk_tx.v'.
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: '/home/chiwei/xilinx_ip/gty_quad_example_top_v1_0/sim/gty_quad_example_init.v'.
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: '/home/chiwei/xilinx_ip/gty_quad_example_top_v1_0/sim/gty_quad_example_reset_sync.v'.
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: '/home/chiwei/xilinx_ip/gty_quad_example_top_v1_0/sim/gty_quad_example_stimulus_raw.v'.
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: '/home/chiwei/xilinx_ip/gty_quad_example_top_v1_0/sim/gty_quad_example_wrapper_functions.v'.
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: '/home/chiwei/xilinx_ip/gty_quad_example_top_v1_0/sim/gty_quad_example_wrapper.v'.
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: '/home/chiwei/xilinx_ip/gty_quad_example_top_v1_0/sim/gty_quad_prbs_any.v'.
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: '/home/chiwei/xilinx_ip/gty_quad_example_top_v1_0/sim/gty_quad_example_top.v'.
+WARNING: [IP_Flow 19-5226] Project source file '/home/chiwei/xilinx_ip/gty_quad_example_top_v1_0/component.xml' ignored by IP packager.
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu May 17 09:58:28 2018...

@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:39:19 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Thu May 17 10:02:25 2018
+# Process ID: 12080
+# Current directory: /home/chiwei/xilinx_ip/gty_quad_example_top_v1_0
+# Command line: vivado tmp_edit_project.xpr
+# Log file: /home/chiwei/xilinx_ip/gty_quad_example_top_v1_0/vivado.log
+# Journal file: /home/chiwei/xilinx_ip/gty_quad_example_top_v1_0/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project tmp_edit_project.xpr
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory '/home/chiwei/xilinx_temp/myip_v1.0/myip_1.0'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository '/home/chiwei/xilinx_temp/myip_v1.0/myip_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/chiwei/xilinx_temp'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2018.1/data/ip'.
+INFO: [Device 21-403] Loading part xcku5p-ffvb676-2-e
+INFO: [Common 17-365] Interrupt caught but 'open_project' cannot be canceled. Please wait for command to finish.
+INFO: [Common 17-681] Processing pending cancel.
+1
+open_project: Time (s): cpu = 00:01:54 ; elapsed = 00:02:13 . Memory (MB): peak = 7216.824 ; gain = 1119.355 ; free physical = 746 ; free virtual = 29495
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu May 17 11:07:40 2018...
