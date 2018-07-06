@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:39:19 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Thu Jul  5 10:04:25 2018
+# Process ID: 17011
+# Current directory: /home/chiwei/xilinx_ip/gty_64_156_10G_top
+# Command line: vivado tmp_edit_project.xpr
+# Log file: /home/chiwei/xilinx_ip/gty_64_156_10G_top/vivado.log
+# Journal file: /home/chiwei/xilinx_ip/gty_64_156_10G_top/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project tmp_edit_project.xpr
+update_compile_order -fileset sources_1
+ipx::open_ipxact_file /home/chiwei/xilinx_ip/gty_64_156_10G_top/component.xml

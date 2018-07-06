@@ -1,0 +1,54 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:39:19 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Thu Jul  5 10:04:25 2018
+# Process ID: 17011
+# Current directory: /home/chiwei/xilinx_ip/gty_64_156_10G_top
+# Command line: vivado tmp_edit_project.xpr
+# Log file: /home/chiwei/xilinx_ip/gty_64_156_10G_top/vivado.log
+# Journal file: /home/chiwei/xilinx_ip/gty_64_156_10G_top/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project tmp_edit_project.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2018.1/data/ip'.
+INFO: [Device 21-403] Loading part xcku5p-ffvb676-2-e
+INFO: [Common 17-365] Interrupt caught but 'open_project' cannot be canceled. Please wait for command to finish.
+INFO: [Common 17-681] Processing pending cancel.
+1
+open_project: Time (s): cpu = 00:01:55 ; elapsed = 00:02:12 . Memory (MB): peak = 7201.219 ; gain = 1106.012 ; free physical = 2756 ; free virtual = 31825
+update_compile_order -fileset sources_1
+ipx::open_ipxact_file /home/chiwei/xilinx_ip/gty_64_156_10G_top/component.xml
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+WARNING: [IP_Flow 19-4963] gty_64_156_10G has board value specified. The packaged IP will be restricted to usage with board 'xilinx.com:kcu116:part0:1.3'
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: '/home/chiwei/xilinx_ip/gty_64_156_10G_top/sim/gty_64_156_10G/gty_64_156_10G.xci'.
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: '/home/chiwei/xilinx_ip/gty_64_156_10G_top/sim/gty_64_156_10G_example_bit_sync.v'.
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: '/home/chiwei/xilinx_ip/gty_64_156_10G_top/sim/gty_64_156_10G_example_checking_raw.v'.
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: '/home/chiwei/xilinx_ip/gty_64_156_10G_top/sim/gty_64_156_10G_example_gtwiz_userclk_rx.v'.
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: '/home/chiwei/xilinx_ip/gty_64_156_10G_top/sim/gty_64_156_10G_example_gtwiz_userclk_tx.v'.
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: '/home/chiwei/xilinx_ip/gty_64_156_10G_top/sim/gty_64_156_10G_example_init.v'.
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: '/home/chiwei/xilinx_ip/gty_64_156_10G_top/sim/gty_64_156_10G_example_reset_sync.v'.
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: '/home/chiwei/xilinx_ip/gty_64_156_10G_top/sim/gty_64_156_10G_example_stimulus_raw.v'.
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: '/home/chiwei/xilinx_ip/gty_64_156_10G_top/sim/gty_64_156_10G_example_wrapper_functions.v'.
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: '/home/chiwei/xilinx_ip/gty_64_156_10G_top/sim/gty_64_156_10G_example_wrapper.v'.
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: '/home/chiwei/xilinx_ip/gty_64_156_10G_top/sim/gty_64_156_10G_prbs_any.v'.
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: '/home/chiwei/xilinx_ip/gty_64_156_10G_top/sim/gty_64_156_10G_top.v'.
+WARNING: [IP_Flow 19-5226] Project source file '/home/chiwei/xilinx_ip/gty_64_156_10G_top/component.xml' ignored by IP packager.
+WARNING: [IP_Flow 19-4308] Project file '/home/chiwei/xilinx_ip/gty_64_156_10G_top/src/gty_64_156_10G/gty_64_156_10G.xci' is not found in the component files. It will be added automatically when merging sources and repackaging. Please remove the file from the source project if this is not desired.
+WARNING: [IP_Flow 19-4308] Project file '/home/chiwei/xilinx_ip/gty_64_156_10G_top/src/gty_64_156_10G_example_bit_sync.v' is not found in the component files. It will be added automatically when merging sources and repackaging. Please remove the file from the source project if this is not desired.
+WARNING: [IP_Flow 19-4308] Project file '/home/chiwei/xilinx_ip/gty_64_156_10G_top/src/gty_64_156_10G_example_checking_raw.v' is not found in the component files. It will be added automatically when merging sources and repackaging. Please remove the file from the source project if this is not desired.
+WARNING: [IP_Flow 19-4308] Project file '/home/chiwei/xilinx_ip/gty_64_156_10G_top/src/gty_64_156_10G_example_gtwiz_userclk_rx.v' is not found in the component files. It will be added automatically when merging sources and repackaging. Please remove the file from the source project if this is not desired.
+WARNING: [IP_Flow 19-4308] Project file '/home/chiwei/xilinx_ip/gty_64_156_10G_top/src/gty_64_156_10G_example_gtwiz_userclk_tx.v' is not found in the component files. It will be added automatically when merging sources and repackaging. Please remove the file from the source project if this is not desired.
+WARNING: [IP_Flow 19-4308] Project file '/home/chiwei/xilinx_ip/gty_64_156_10G_top/src/gty_64_156_10G_example_init.v' is not found in the component files. It will be added automatically when merging sources and repackaging. Please remove the file from the source project if this is not desired.
+WARNING: [IP_Flow 19-4308] Project file '/home/chiwei/xilinx_ip/gty_64_156_10G_top/src/gty_64_156_10G_example_reset_sync.v' is not found in the component files. It will be added automatically when merging sources and repackaging. Please remove the file from the source project if this is not desired.
+WARNING: [IP_Flow 19-4308] Project file '/home/chiwei/xilinx_ip/gty_64_156_10G_top/src/gty_64_156_10G_example_stimulus_raw.v' is not found in the component files. It will be added automatically when merging sources and repackaging. Please remove the file from the source project if this is not desired.
+WARNING: [IP_Flow 19-4308] Project file '/home/chiwei/xilinx_ip/gty_64_156_10G_top/src/gty_64_156_10G_example_wrapper.v' is not found in the component files. It will be added automatically when merging sources and repackaging. Please remove the file from the source project if this is not desired.
+WARNING: [IP_Flow 19-4308] Project file '/home/chiwei/xilinx_ip/gty_64_156_10G_top/src/gty_64_156_10G_prbs_any.v' is not found in the component files. It will be added automatically when merging sources and repackaging. Please remove the file from the source project if this is not desired.
+WARNING: [IP_Flow 19-4308] Project file '/home/chiwei/xilinx_ip/gty_64_156_10G_top/src/gty_64_156_10G_top.v' is not found in the component files. It will be added automatically when merging sources and repackaging. Please remove the file from the source project if this is not desired.
+WARNING: [IP_Flow 19-5105] 'Used in' property of 'src/gty_64_156_10G_example_top_sim.v' differs between project and component. The property in the source project will override the one in the packaged component on merging or repackaging or opening the packaged IP.
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Jul  5 10:07:28 2018...

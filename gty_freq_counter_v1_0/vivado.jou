@@ -1,0 +1,40 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:39:19 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Mon May 21 11:07:56 2018
+# Process ID: 9686
+# Current directory: /home/chiwei/xilinx_ip/gty_freq_counter_v1_0
+# Command line: vivado tmp_edit_project.xpr
+# Log file: /home/chiwei/xilinx_ip/gty_freq_counter_v1_0/vivado.log
+# Journal file: /home/chiwei/xilinx_ip/gty_freq_counter_v1_0/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project tmp_edit_project.xpr
+update_compile_order -fileset sources_1
+ipx::open_ipxact_file /home/chiwei/xilinx_ip/gty_freq_counter_v1_0/component.xml
+ipx::add_bus_interface FREQ_CNT_O [ipx::current_core]
+set_property abstraction_type_vlnv xilinx.com:signal:data_rtl:1.0 [ipx::get_bus_interfaces FREQ_CNT_O -of_objects [ipx::current_core]]
+set_property bus_type_vlnv xilinx.com:signal:data:1.0 [ipx::get_bus_interfaces FREQ_CNT_O -of_objects [ipx::current_core]]
+set_property interface_mode master [ipx::get_bus_interfaces FREQ_CNT_O -of_objects [ipx::current_core]]
+set_property display_name FREQ_CNT_O [ipx::get_bus_interfaces FREQ_CNT_O -of_objects [ipx::current_core]]
+ipx::infer_bus_interfaces xilinx.com:signal:clock_rtl:1.0 [ipx::current_core]
+ipx::add_bus_interface DIFF_MGTE4 [ipx::current_core]
+set_property abstraction_type_vlnv xilinx.com:interface:diff_clock_rtl:1.0 [ipx::get_bus_interfaces DIFF_MGTE4 -of_objects [ipx::current_core]]
+set_property bus_type_vlnv xilinx.com:interface:diff_clock:1.0 [ipx::get_bus_interfaces DIFF_MGTE4 -of_objects [ipx::current_core]]
+set_property display_name DIFF_MGTE4 [ipx::get_bus_interfaces DIFF_MGTE4 -of_objects [ipx::current_core]]
+ipx::add_port_map CLK_P [ipx::get_bus_interfaces DIFF_MGTE4 -of_objects [ipx::current_core]]
+set_property physical_name DIFF_MGTE4_P [ipx::get_port_maps CLK_P -of_objects [ipx::get_bus_interfaces DIFF_MGTE4 -of_objects [ipx::current_core]]]
+ipx::add_port_map CLK_N [ipx::get_bus_interfaces DIFF_MGTE4 -of_objects [ipx::current_core]]
+set_property physical_name DIFF_MGTE4_N [ipx::get_port_maps CLK_N -of_objects [ipx::get_bus_interfaces DIFF_MGTE4 -of_objects [ipx::current_core]]]
+ipx::add_bus_interface RST_I [ipx::current_core]
+set_property abstraction_type_vlnv xilinx.com:signal:reset_rtl:1.0 [ipx::get_bus_interfaces RST_I -of_objects [ipx::current_core]]
+set_property bus_type_vlnv xilinx.com:signal:reset:1.0 [ipx::get_bus_interfaces RST_I -of_objects [ipx::current_core]]
+set_property display_name RST_I [ipx::get_bus_interfaces RST_I -of_objects [ipx::current_core]]
+ipx::add_port_map RST [ipx::get_bus_interfaces RST_I -of_objects [ipx::current_core]]
+set_property physical_name RST_I [ipx::get_port_maps RST -of_objects [ipx::get_bus_interfaces RST_I -of_objects [ipx::current_core]]]
+ipx::infer_bus_interface REF_CLK_I xilinx.com:signal:clock_rtl:1.0 [ipx::current_core]
+set_property name REF_CLK_I [ipx::get_bus_interfaces REF_I -of_objects [ipx::current_core]]
+set_property display_name REF_CLK_I [ipx::get_bus_interfaces REF_CLK_I -of_objects [ipx::current_core]]
+ipx::add_port_map DATA [ipx::get_bus_interfaces FREQ_CNT_O -of_objects [ipx::current_core]]
+set_property physical_name FREQ_CNT_O [ipx::get_port_maps DATA -of_objects [ipx::get_bus_interfaces FREQ_CNT_O -of_objects [ipx::current_core]]]

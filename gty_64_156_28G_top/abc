@@ -1,0 +1,369 @@
+6a7,346
+>   <spirit:busInterfaces>
+>     <spirit:busInterface>
+>       <spirit:name>drp_vio</spirit:name>
+>       <spirit:busType spirit:vendor="xilinx.com" spirit:library="interface" spirit:name="drp" spirit:version="1.0"/>
+>       <spirit:abstractionType spirit:vendor="xilinx.com" spirit:library="interface" spirit:name="drp_rtl" spirit:version="1.0"/>
+>       <spirit:slave/>
+>       <spirit:portMaps>
+>         <spirit:portMap>
+>           <spirit:logicalPort>
+>             <spirit:name>DADDR</spirit:name>
+>           </spirit:logicalPort>
+>           <spirit:physicalPort>
+>             <spirit:name>drpaddr_vio_int</spirit:name>
+>           </spirit:physicalPort>
+>         </spirit:portMap>
+>         <spirit:portMap>
+>           <spirit:logicalPort>
+>             <spirit:name>DO</spirit:name>
+>           </spirit:logicalPort>
+>           <spirit:physicalPort>
+>             <spirit:name>drpdo_vio_int</spirit:name>
+>           </spirit:physicalPort>
+>         </spirit:portMap>
+>         <spirit:portMap>
+>           <spirit:logicalPort>
+>             <spirit:name>DRDY</spirit:name>
+>           </spirit:logicalPort>
+>           <spirit:physicalPort>
+>             <spirit:name>drprdy_vio_int</spirit:name>
+>           </spirit:physicalPort>
+>         </spirit:portMap>
+>         <spirit:portMap>
+>           <spirit:logicalPort>
+>             <spirit:name>DWE</spirit:name>
+>           </spirit:logicalPort>
+>           <spirit:physicalPort>
+>             <spirit:name>drpwe_vio_int</spirit:name>
+>           </spirit:physicalPort>
+>         </spirit:portMap>
+>         <spirit:portMap>
+>           <spirit:logicalPort>
+>             <spirit:name>DEN</spirit:name>
+>           </spirit:logicalPort>
+>           <spirit:physicalPort>
+>             <spirit:name>drpen_vio_int</spirit:name>
+>           </spirit:physicalPort>
+>         </spirit:portMap>
+>         <spirit:portMap>
+>           <spirit:logicalPort>
+>             <spirit:name>DI</spirit:name>
+>           </spirit:logicalPort>
+>           <spirit:physicalPort>
+>             <spirit:name>drpdi_vio_int</spirit:name>
+>           </spirit:physicalPort>
+>         </spirit:portMap>
+>       </spirit:portMaps>
+>     </spirit:busInterface>
+>     <spirit:busInterface>
+>       <spirit:name>drp_common</spirit:name>
+>       <spirit:busType spirit:vendor="xilinx.com" spirit:library="interface" spirit:name="drp" spirit:version="1.0"/>
+>       <spirit:abstractionType spirit:vendor="xilinx.com" spirit:library="interface" spirit:name="drp_rtl" spirit:version="1.0"/>
+>       <spirit:slave/>
+>       <spirit:portMaps>
+>         <spirit:portMap>
+>           <spirit:logicalPort>
+>             <spirit:name>DADDR</spirit:name>
+>           </spirit:logicalPort>
+>           <spirit:physicalPort>
+>             <spirit:name>drpaddr_common_int</spirit:name>
+>           </spirit:physicalPort>
+>         </spirit:portMap>
+>         <spirit:portMap>
+>           <spirit:logicalPort>
+>             <spirit:name>DO</spirit:name>
+>           </spirit:logicalPort>
+>           <spirit:physicalPort>
+>             <spirit:name>drpdo_common_int</spirit:name>
+>           </spirit:physicalPort>
+>         </spirit:portMap>
+>         <spirit:portMap>
+>           <spirit:logicalPort>
+>             <spirit:name>DRDY</spirit:name>
+>           </spirit:logicalPort>
+>           <spirit:physicalPort>
+>             <spirit:name>drprdy_common_int</spirit:name>
+>           </spirit:physicalPort>
+>         </spirit:portMap>
+>         <spirit:portMap>
+>           <spirit:logicalPort>
+>             <spirit:name>DWE</spirit:name>
+>           </spirit:logicalPort>
+>           <spirit:physicalPort>
+>             <spirit:name>drpwe_common_int</spirit:name>
+>           </spirit:physicalPort>
+>         </spirit:portMap>
+>         <spirit:portMap>
+>           <spirit:logicalPort>
+>             <spirit:name>DEN</spirit:name>
+>           </spirit:logicalPort>
+>           <spirit:physicalPort>
+>             <spirit:name>drpen_common_int</spirit:name>
+>           </spirit:physicalPort>
+>         </spirit:portMap>
+>         <spirit:portMap>
+>           <spirit:logicalPort>
+>             <spirit:name>DI</spirit:name>
+>           </spirit:logicalPort>
+>           <spirit:physicalPort>
+>             <spirit:name>drpdi_common_int</spirit:name>
+>           </spirit:physicalPort>
+>         </spirit:portMap>
+>       </spirit:portMaps>
+>     </spirit:busInterface>
+>     <spirit:busInterface>
+>       <spirit:name>drp</spirit:name>
+>       <spirit:busType spirit:vendor="xilinx.com" spirit:library="interface" spirit:name="drp" spirit:version="1.0"/>
+>       <spirit:abstractionType spirit:vendor="xilinx.com" spirit:library="interface" spirit:name="drp_rtl" spirit:version="1.0"/>
+>       <spirit:slave/>
+>       <spirit:portMaps>
+>         <spirit:portMap>
+>           <spirit:logicalPort>
+>             <spirit:name>DADDR</spirit:name>
+>           </spirit:logicalPort>
+>           <spirit:physicalPort>
+>             <spirit:name>drpaddr_int</spirit:name>
+>           </spirit:physicalPort>
+>         </spirit:portMap>
+>         <spirit:portMap>
+>           <spirit:logicalPort>
+>             <spirit:name>DO</spirit:name>
+>           </spirit:logicalPort>
+>           <spirit:physicalPort>
+>             <spirit:name>drpdo_int</spirit:name>
+>           </spirit:physicalPort>
+>         </spirit:portMap>
+>         <spirit:portMap>
+>           <spirit:logicalPort>
+>             <spirit:name>DRDY</spirit:name>
+>           </spirit:logicalPort>
+>           <spirit:physicalPort>
+>             <spirit:name>drprdy_int</spirit:name>
+>           </spirit:physicalPort>
+>         </spirit:portMap>
+>         <spirit:portMap>
+>           <spirit:logicalPort>
+>             <spirit:name>DWE</spirit:name>
+>           </spirit:logicalPort>
+>           <spirit:physicalPort>
+>             <spirit:name>drpwe_int</spirit:name>
+>           </spirit:physicalPort>
+>         </spirit:portMap>
+>         <spirit:portMap>
+>           <spirit:logicalPort>
+>             <spirit:name>DEN</spirit:name>
+>           </spirit:logicalPort>
+>           <spirit:physicalPort>
+>             <spirit:name>drpen_int</spirit:name>
+>           </spirit:physicalPort>
+>         </spirit:portMap>
+>         <spirit:portMap>
+>           <spirit:logicalPort>
+>             <spirit:name>DI</spirit:name>
+>           </spirit:logicalPort>
+>           <spirit:physicalPort>
+>             <spirit:name>drpdi_int</spirit:name>
+>           </spirit:physicalPort>
+>         </spirit:portMap>
+>       </spirit:portMaps>
+>     </spirit:busInterface>
+>     <spirit:busInterface>
+>       <spirit:name>gty</spirit:name>
+>       <spirit:busType spirit:vendor="xilinx.com" spirit:library="interface" spirit:name="gt" spirit:version="1.0"/>
+>       <spirit:abstractionType spirit:vendor="xilinx.com" spirit:library="interface" spirit:name="gt_rtl" spirit:version="1.0"/>
+>       <spirit:master/>
+>       <spirit:portMaps>
+>         <spirit:portMap>
+>           <spirit:logicalPort>
+>             <spirit:name>GRX_P</spirit:name>
+>           </spirit:logicalPort>
+>           <spirit:physicalPort>
+>             <spirit:name>ch0_gtyrxp_in</spirit:name>
+>           </spirit:physicalPort>
+>         </spirit:portMap>
+>         <spirit:portMap>
+>           <spirit:logicalPort>
+>             <spirit:name>GTX_N</spirit:name>
+>           </spirit:logicalPort>
+>           <spirit:physicalPort>
+>             <spirit:name>ch0_gtytxn_out</spirit:name>
+>           </spirit:physicalPort>
+>         </spirit:portMap>
+>         <spirit:portMap>
+>           <spirit:logicalPort>
+>             <spirit:name>GRX_N</spirit:name>
+>           </spirit:logicalPort>
+>           <spirit:physicalPort>
+>             <spirit:name>ch0_gtyrxn_in</spirit:name>
+>           </spirit:physicalPort>
+>         </spirit:portMap>
+>         <spirit:portMap>
+>           <spirit:logicalPort>
+>             <spirit:name>GTX_P</spirit:name>
+>           </spirit:logicalPort>
+>           <spirit:physicalPort>
+>             <spirit:name>ch0_gtytxp_out</spirit:name>
+>           </spirit:physicalPort>
+>         </spirit:portMap>
+>       </spirit:portMaps>
+>     </spirit:busInterface>
+>     <spirit:busInterface>
+>       <spirit:name>mgtrefclk</spirit:name>
+>       <spirit:busType spirit:vendor="xilinx.com" spirit:library="interface" spirit:name="diff_clock" spirit:version="1.0"/>
+>       <spirit:abstractionType spirit:vendor="xilinx.com" spirit:library="interface" spirit:name="diff_clock_rtl" spirit:version="1.0"/>
+>       <spirit:slave/>
+>       <spirit:portMaps>
+>         <spirit:portMap>
+>           <spirit:logicalPort>
+>             <spirit:name>CLK_P</spirit:name>
+>           </spirit:logicalPort>
+>           <spirit:physicalPort>
+>             <spirit:name>mgtrefclk0_x0y2_p</spirit:name>
+>           </spirit:physicalPort>
+>         </spirit:portMap>
+>         <spirit:portMap>
+>           <spirit:logicalPort>
+>             <spirit:name>CLK_N</spirit:name>
+>           </spirit:logicalPort>
+>           <spirit:physicalPort>
+>             <spirit:name>mgtrefclk0_x0y2_n</spirit:name>
+>           </spirit:physicalPort>
+>         </spirit:portMap>
+>       </spirit:portMaps>
+>     </spirit:busInterface>
+>     <spirit:busInterface>
+>       <spirit:name>reset_all</spirit:name>
+>       <spirit:busType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="reset" spirit:version="1.0"/>
+>       <spirit:abstractionType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="reset_rtl" spirit:version="1.0"/>
+>       <spirit:slave/>
+>       <spirit:portMaps>
+>         <spirit:portMap>
+>           <spirit:logicalPort>
+>             <spirit:name>RST</spirit:name>
+>           </spirit:logicalPort>
+>           <spirit:physicalPort>
+>             <spirit:name>hb_gtwiz_reset_all_in</spirit:name>
+>           </spirit:physicalPort>
+>         </spirit:portMap>
+>       </spirit:portMaps>
+>       <spirit:parameters>
+>         <spirit:parameter>
+>           <spirit:name>NUM_READ_OUTSTANDING</spirit:name>
+>           <spirit:value spirit:id="BUSIFPARAM_VALUE.RESET_ALL.NUM_READ_OUTSTANDING"/>
+>         </spirit:parameter>
+>         <spirit:parameter>
+>           <spirit:name>NUM_WRITE_OUTSTANDING</spirit:name>
+>           <spirit:value spirit:id="BUSIFPARAM_VALUE.RESET_ALL.NUM_WRITE_OUTSTANDING"/>
+>         </spirit:parameter>
+>       </spirit:parameters>
+>     </spirit:busInterface>
+>     <spirit:busInterface>
+>       <spirit:name>link_down_reset</spirit:name>
+>       <spirit:busType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="reset" spirit:version="1.0"/>
+>       <spirit:abstractionType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="reset_rtl" spirit:version="1.0"/>
+>       <spirit:slave/>
+>       <spirit:portMaps>
+>         <spirit:portMap>
+>           <spirit:logicalPort>
+>             <spirit:name>RST</spirit:name>
+>           </spirit:logicalPort>
+>           <spirit:physicalPort>
+>             <spirit:name>link_down_latched_reset_in</spirit:name>
+>           </spirit:physicalPort>
+>         </spirit:portMap>
+>       </spirit:portMaps>
+>       <spirit:parameters>
+>         <spirit:parameter>
+>           <spirit:name>NUM_READ_OUTSTANDING</spirit:name>
+>           <spirit:value spirit:id="BUSIFPARAM_VALUE.LINK_DOWN_RESET.NUM_READ_OUTSTANDING"/>
+>         </spirit:parameter>
+>         <spirit:parameter>
+>           <spirit:name>NUM_WRITE_OUTSTANDING</spirit:name>
+>           <spirit:value spirit:id="BUSIFPARAM_VALUE.LINK_DOWN_RESET.NUM_WRITE_OUTSTANDING"/>
+>         </spirit:parameter>
+>       </spirit:parameters>
+>     </spirit:busInterface>
+>     <spirit:busInterface>
+>       <spirit:name>link_status</spirit:name>
+>       <spirit:busType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="data" spirit:version="1.0"/>
+>       <spirit:abstractionType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="data_rtl" spirit:version="1.0"/>
+>       <spirit:master/>
+>       <spirit:portMaps>
+>         <spirit:portMap>
+>           <spirit:logicalPort>
+>             <spirit:name>DATA</spirit:name>
+>           </spirit:logicalPort>
+>           <spirit:physicalPort>
+>             <spirit:name>link_status_out</spirit:name>
+>           </spirit:physicalPort>
+>         </spirit:portMap>
+>       </spirit:portMaps>
+>     </spirit:busInterface>
+>     <spirit:busInterface>
+>       <spirit:name>link_down</spirit:name>
+>       <spirit:busType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="data" spirit:version="1.0"/>
+>       <spirit:abstractionType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="data_rtl" spirit:version="1.0"/>
+>       <spirit:master/>
+>       <spirit:portMaps>
+>         <spirit:portMap>
+>           <spirit:logicalPort>
+>             <spirit:name>DATA</spirit:name>
+>           </spirit:logicalPort>
+>           <spirit:physicalPort>
+>             <spirit:name>link_down_latched_out</spirit:name>
+>           </spirit:physicalPort>
+>         </spirit:portMap>
+>       </spirit:portMaps>
+>     </spirit:busInterface>
+>     <spirit:busInterface>
+>       <spirit:name>clk</spirit:name>
+>       <spirit:busType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="clock" spirit:version="1.0"/>
+>       <spirit:abstractionType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="clock_rtl" spirit:version="1.0"/>
+>       <spirit:slave/>
+>       <spirit:portMaps>
+>         <spirit:portMap>
+>           <spirit:logicalPort>
+>             <spirit:name>CLK</spirit:name>
+>           </spirit:logicalPort>
+>           <spirit:physicalPort>
+>             <spirit:name>hb_gtwiz_reset_clk_freerun_in</spirit:name>
+>           </spirit:physicalPort>
+>         </spirit:portMap>
+>       </spirit:portMaps>
+>       <spirit:parameters>
+>         <spirit:parameter>
+>           <spirit:name>FREQ_HZ</spirit:name>
+>           <spirit:value spirit:id="BUSIFPARAM_VALUE.CLK.FREQ_HZ"/>
+>         </spirit:parameter>
+>       </spirit:parameters>
+>     </spirit:busInterface>
+>   </spirit:busInterfaces>
+24c364
+<             <spirit:value>84038c44</spirit:value>
+---
+>             <spirit:value>6c86faa4</spirit:value>
+682c1022
+<         <spirit:fileType>systemVerilogSource</spirit:fileType>
+---
+>         <spirit:fileType>verilogSource</spirit:fileType>
+707d1046
+<         <spirit:userFileType>USED_IN_implementation</spirit:userFileType>
+708a1048
+>         <spirit:userFileType>USED_IN_testbench</spirit:userFileType>
+738,739c1078,1082
+<       <xilinx:coreRevision>1</xilinx:coreRevision>
+<       <xilinx:coreCreationDateTime>2018-07-02T17:54:22Z</xilinx:coreCreationDateTime>
+---
+>       <xilinx:coreRevision>2</xilinx:coreRevision>
+>       <xilinx:coreCreationDateTime>2018-07-02T17:40:46Z</xilinx:coreCreationDateTime>
+>       <xilinx:tags>
+>         <xilinx:tag xilinx:name="user.org:user:gty_64_156_28G_top:1.0_ARCHIVE_LOCATION">/home/chiwei/xilinx_ip/gty_64_156_28G_top</xilinx:tag>
+>       </xilinx:tags>
+743,744c1086,1088
+<       <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="8389098d"/>
+<       <xilinx:checksum xilinx:scope="ports" xilinx:value="641c2b43"/>
+---
+>       <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="522a894e"/>
+>       <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="4e0b310d"/>
+>       <xilinx:checksum xilinx:scope="ports" xilinx:value="f312c85f"/>
